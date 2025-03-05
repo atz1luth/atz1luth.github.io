@@ -4,9 +4,9 @@
 
 title: 47z!h4Ck # the website title (if blank, full name will be used instead)
 first_name: 47z!Lu7h
-middle_name: 
-last_name: 
-keywords:  # add your own keywords or leave empty
+middle_name:
+last_name:
+keywords: # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://atz1luth.github.io # the base hostname & protocol for your site
@@ -21,7 +21,7 @@ back_to_top: true # set to false to disable the back to top button
 
 # repo color theme
 repo_theme_light: light # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: default  # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
