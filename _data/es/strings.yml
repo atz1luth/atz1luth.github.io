@@ -1,0 +1,158 @@
+archive_category: un arquivo de postagens desta categoria
+archive_tag: un arquivo de postagens com este marcador
+archive_year: un arquivo de postagens deste ano
+bibliography:
+  abstract: Abs
+  awarded: Premiado
+  blog: Blog
+  book_prefix: Em
+  code: Código
+  last_author_prefix: e
+  poster: Poster
+  slides: Slides
+  supp: Supl
+  video: Vídeo
+  website: Site
+blog:
+  navigation_title: blog
+categories:
+  fun: diversão
+  work: trabalho
+citation:
+  bibtex: "ou como una citapción em BibTeX:"
+  introduction: "Se voce achou isso útil, por favor cite como:"
+contact_note: The biggest adventure you can take is to live the life of your dream
+cv:
+  address: Dirección
+  area: Área
+  awarder: Premiado por
+  awards: Premios
+  basics: Informaciones generales
+  certificates: Certificados
+  city: Cidade
+  countryCode: Código do país
+  courses: Cursos
+  date: Data
+  education: Educación
+  email: Email
+  endDate: Data de término
+  fluency: Fluencia
+  highlights: Destaques
+  image: Imagem
+  institution: Instituición
+  interests: Interesses
+  issuer: Emissor
+  keywords: Palavras chave
+  label: Título
+  language: Idioma
+  languages: Idiomas
+  level: Nível
+  location: Localización
+  name: Nome
+  network: Rede
+  organization: Organización
+  phone: Telefone
+  position: Posipción
+  postalCode: Código postal
+  present: Presente
+  profiles: Perfis
+  projects: Projetos
+  publications: Publicaciones
+  publisher: Editora
+  reference: Referencia
+  references: Referencias
+  region: Region
+  releaseDate: Data de lanzamento
+  score: Pontuación
+  skills: Habilidades
+  startDate: Data de início
+  studyType: Tipo de estudo
+  summary: Resumo
+  table_of_contents: Topicos
+  title: Título
+  url: Url
+  username: Usuario
+  volunteer: Voluntário
+  work: Traballo
+footer:
+  copyright: Derechos
+  last_updated: "Última atualización:"
+footer_text: >
+  Love is life. And if you miss love, you miss life.
+
+latest_posts: últimos posts
+months:
+  long:
+    january: Enero
+    february: Febrero
+    march: Marzo
+    april: Abril
+    may: Mayo
+    june: Junio
+    july: Julio
+    august: Agosto
+    september: Septiembre
+    october: Octubre
+    november: Noviembre
+    december: Diciembre
+  short:
+    january: Ene
+    february: Feb
+    march: Mar
+    april: Abr
+    may: Mai
+    june: Jun
+    july: Jul
+    august: Ago
+    september: Set
+    october: Oct
+    november: Nov
+    december: Dez
+news: novidades
+newsletter:
+  back: Voltar
+  error: "Oops! Algo deu errado, por favor tente novamente."
+  subscribe: inscrever-se
+  subscribed: "Voce se inscreveu com sucesso na newsletter."
+  subscribe_to_receive: "Inscreva-se para ser notificado de futuros artigos:"
+  too_many_signups: "Muitas inscriciones, por favor tente novamente em breve"
+  wait: "Por favor, aguarde..."
+no_news: Nenhuma novidade no momento...
+no_posts: "Nenhuma postagem até agora..."
+pagination:
+  page: página
+post:
+  created_in: Criado em
+  created_by: por
+  last_updated: última atualización em
+references: Referencias
+related_posts:
+  description: "Aqui estão alguns artigos relacionados que voce pode gostar de ler:"
+  title: Gostou de Ler este Artigo?
+search:
+  dark_theme:
+    description: Muda o tema do site para escuro
+    title: Muda o tema para escuro
+  dropdown: Outras opciones
+  email: Enviar un email
+  footer:
+    close: para cerrar
+    navigate: para navegar
+    parent: subir un nivel
+    select: para selecionar
+  languages: Idiomas
+  light_theme:
+    description: Muda o tema do site para claro
+    title: Muda o tema para claro
+  navigation: Menu de navegapción
+  news: Novidades
+  placeholder: Digite para iniciar a busca
+  posts: Postagens
+  projects: Projetos
+  socials: Redes sociais
+  system_theme:
+    description: Muda o tema do site para o padrão do sistema
+    title: Usa o tema padrão do sistema
+  theme: Tema
+selected_publications: publicaciones selecionadas
+site_description: un tema simples para academicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).

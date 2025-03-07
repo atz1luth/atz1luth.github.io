@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Roi Diz DIéguez",
+    "label": "",
+    "image": "",
+    "email": "rdd87@live.com",
+    "phone": "(+34) 610 616 357",
+    "url": "https://47z1lu7h.github.io/",
+    "summary": "...",
+    "location": {
+      "address": "El Pinar, nº-19, 4º-A",
+      "postalCode": "36400",
+      "city": "O Porriño",
+      "countryCode": "Spain",
+      "region": "Galicia"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "Twitter",
+        "username": "4tz1luth",
+        "url": "https://twitter.com/4tz1luth"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Smart Charter",
+      "position": "Ship Captain",
+      "startDate": "Jul 2022",
+      "endDate": "Sep 2022",
+      "summary": "",
+      "highlights": ["Customer service"]
+    },
+    {
+      "name": "WORLD BUSINESS 2000, S.L.",
+      "position": "Ship Captain",
+      "startDate": "Jul 2020",
+      "endDate": "Sep 2020",
+      "summary": "",
+      "highlights": ["Customer service", ""]
+    },
+    {
+      "name": "JET SERVICE IBIZA",
+      "position": "Ship Captain",
+      "startDate": "Jul 2019",
+      "endDate": "Sep 2019",
+      "summary": "",
+      "highlights": ["Customer service", ""]
+    },
+    {
+      "name": "Smart Charter Ibiza",
+      "position": "Ship Captain",
+      "startDate": "Jul 2018",
+      "endDate": "Sep 2018",
+      "summary": "",
+      "highlights": ["Customer service", ""]
+    },
+    {
+      "name": "Smart Charter Ibiza",
+      "position": "Ship Captain",
+      "startDate": "Jul 2017",
+      "endDate": "Sep 2017",
+      "summary": "",
+      "highlights": ["Customer service", ""]
+    },
+    {
+      "name": "Rumpus Room Rooftop Bar at Mondrian London",
+      "position": "Bartender",
+      "startDate": "Jul 2014",
+      "endDate": "Mar 2016",
+      "summary": "",
+      "highlights": ["", ""]
+    },
+    {
+      "name": "Zizzi Restaurants",
+      "position": "Bartender",
+      "startDate": "Oct 2013",
+      "endDate": "Sep 2014",
+      "summary": "",
+      "highlights": ["", ""]
+    },
+    {
+      "name": "NATSUKI SERVICIOS CENTRALES, S.L ",
+      "position": "Lifeguard",
+      "startDate": "June 2013",
+      "endDate": "Oct 2013",
+      "summary": "",
+      "highlights": ["", ""]
+    },
+    {
+      "name": "BALEARES DE GESTION DE SEGURIDAD Y SALVAMENTO",
+      "position": "Lifeguard",
+      "startDate": "June 2012",
+      "endDate": "Oct 2012",
+      "summary": "",
+      "highlights": ["yepaaaaa", "leeee"]
+    },
+    {
+      "name": "SOCIEDAD PARA EL TRATAMIENTO DE AGUAS RESIDUALES",
+      "position": "Empleado limpieza",
+      "startDate": "Dec 2010",
+      "endDate": "Apr 2011"
+    },
+    {
+      "name": "ESPECIALISTAS EN TRABAJO TEMPORAL S.A. E.",
+      "position": "Empleado fabrica",
+      "startDate": "Nov 2010",
+      "endDate": "Oct 2011"
+    },
+    {
+      "name": "ADECCO E.T.T.",
+      "position": "Empleado fabrica",
+      "startDate": "Mar 2007",
+      "endDate": "Sep 2008",
+      "summary": ""
+    },
+    {
+      "name": "ZELNOVA ZELTIA S.A",
+      "position": "Empleado fabrica",
+      "startDate": "Oct 2007",
+      "endDate": "Feb 2008"
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES Teis",
+      "location": "Vigo, Pontevedra",
+      "area": "IT",
+      "studyType": "Higher Education (HNC) in Systems Administration",
+      "startDate": "",
+      "endDate": "",
+      "courses": [""]
+    },
+    {
+      "institution": "IES",
+      "location": "Pontevedra, Galicia",
+      "area": "",
+      "studyType": "Vocational Education and Training (VET)",
+      "startDate": "",
+      "endDate": "",
+      "courses": [""]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "lifecare",
+      "date": "2012-04-02",
+      "issuer": "",
+      "url": "#",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "YatchMaster OffShore",
+      "date": "2016-01-01",
+      "issuer": "#",
+      "url": "#",
+      "icon": "fa-solid fa-envelope"
+    }
+  ],
+  "skills": [
+    {
+      "name": "code",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Bash", "Python"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": "fa-solid fa-tag"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "icon": "fa-solid fa-tag",
+      "keywords": [""]
+    }
+  ],
+  "projects": []
+}

@@ -1,0 +1,101 @@
+- title: Información general
+  type: map
+  contents:
+    - name: Nome Completo
+      value: Albert Einstein
+    - name: Data de Nacimiento
+      value: 14 de marzo de 1879
+    - name: Idiomas
+      value: Ingles, Alemão
+
+- title: Educación
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Zurich, Zurique, Suíza
+      year: 1905
+      description:
+        - Descripción 1.
+        - Descripción 2.
+        - title: Descripción 3.
+          contents:
+            - Sub-descripción 1.
+            - Sub-descripción 2.
+    - title: Diploma de ensino federal
+      institution: Eidgenössische Technische Hochschule, Zurique, Suíza
+      year: 1900
+      description:
+        - Descripción 1.
+        - Descripción 2.
+
+- title: Experiencia
+  type: time_table
+  contents:
+    - title: Professor de Física Teórica
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Descripción 1.
+        - Descripción 2.
+        - title: Descripción 3.
+          contents:
+            - Sub-descripción 1.
+            - Sub-descripción 2.
+    - title: Professor Visitante
+      institution: California Institute of Technology, Pasadena, Califórnia, EUA
+      year: 1933
+      description:
+        - Descripción 1.
+        - Descripción 2.
+
+    - title: Diretor
+      institution: Kaiser Wilhelm Institute for Physics, Berlim, Alemanha.
+      year: 1917-1933
+
+    - title: Professor de Física Teórica
+      institution: Karl-Ferdinand University, Praga, Tchecoslováquia
+      year: 1911 - 1917
+      description:
+
+    - title: Professor Associado de Física Teórica
+      institution: University of Zurich, Zurique, Suíza
+      year: 1909 - 1911
+
+- title: Projetos de Código Aberto
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
+      year: 2023-atual
+      description: una variapción do tema al-folio com suporte a múltiplos idiomas.
+
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-atual
+      description: un tema Jekyll bonito, simples, limpo e responsivo para academicos.
+
+- title: Honrarias e Premios
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Premio Nobel de Física
+        - Medalha Matteucci
+    - year: 2029
+      items:
+        - Medalha Max Planck
+
+- title: Interesses Academicos
+  type: nested_list
+  contents:
+    - title: Topico 1.
+      items:
+        - Descripción 1.
+        - Descripción 2.
+    - title: Topico 2.
+      items:
+        - Descripción 1.
+        - Descripción 2.
+
+- title: Otros Interesses
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
