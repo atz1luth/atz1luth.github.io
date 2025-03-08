@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-d14r1o",
           title: "/ d14R1o \",
-          description: "A cybersecurity enthusiast",
+          description: "Un entusiasta de la ciberseguridad",
           section: "Menu de navegapción",
           handler: () => {
             window.location.href = "/es/blog/";
@@ -41,8 +41,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/es";
               },
-            },{id: "dropdown-repositories",
-              title: "repositories",
+            },{id: "dropdown-repositorios",
+              title: "repositorios",
               description: "",
               section: "Outras opciones",
               handler: () => {
@@ -55,8 +55,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/es";
               },
-            },{id: "dropdown-news",
-              title: "news",
+            },{id: "dropdown-noticias",
+              title: "noticias",
               description: "",
               section: "Outras opciones",
               handler: () => {
