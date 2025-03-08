@@ -12,8 +12,9 @@ horizontal: false
 
 <br>
 
-- ##### **Aquí tengo todas las fichas técnicas que me parecen interesantes.**.
-  - ##### **Muchos repositorios de github, y algunos míos.** :ok_hand::slightly_smiling_face::wink:
+> Aquí tengo las fichas de comandos que me parecen interesantes.
+
+    Muchos repositorios de github, y algunos míos. :ok_hand::slightly_smiling_face::wink:
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

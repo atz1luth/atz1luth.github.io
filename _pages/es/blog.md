@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: / d14R1o \
 blog_name: 47z!Lu7h
-description: A cybersecurity enthusiast
+description: Un entusiasta de la ciberseguridad
 nav: true
 nav_order: 1
 pagination:

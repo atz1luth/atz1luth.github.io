@@ -1,7 +1,7 @@
 ---
 id: dropdown
 layout: page
-title: / mÁs \
+title: / mAs \
 nav: true
 nav_order: 8
 dropdown: true
@@ -11,7 +11,7 @@ children:
     permalink: /about/
   - title: divider
   - title: divider
-  - title: repositories
+  - title: repositorios
     permalink: /repos/
   - title: divider
   - title: divider
@@ -19,7 +19,7 @@ children:
     permalink: /cv/
   - title: divider
   - title: divider
-  - title: news
+  - title: noticias
     permalink: /news/
   - title: divider
 ---
