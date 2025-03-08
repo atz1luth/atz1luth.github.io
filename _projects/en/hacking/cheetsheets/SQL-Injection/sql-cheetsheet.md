@@ -7,6 +7,12 @@ img: assets/img/hacking/cheetsheets/sql.jpg
 display_categories: [sql, sqlmap, mysql, oracle, mssql, postgresql ]
 ---
 
+{:center: style="text-align: center"}
+
+### **`SQL-Injection Cheet Sheets`**
+
+{:center}
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

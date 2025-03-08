@@ -3,7 +3,7 @@ page_id: projects
 layout: page
 title: \ d0Cs /
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [code, hacking, "cheet sheets", misc]
@@ -12,9 +12,7 @@ horizontal: false
 
 <br>
 
-> Aquí tengo las fichas de comandos que me parecen interesantes.
-
-    Muchos repositorios de github, y algunos míos. :ok_hand::slightly_smiling_face::wink:
+> Aquí tengo las fichas de comandos que me parecen interesantes.<br>Muchos repositorios de github, y algunos míos. :ok_hand::slightly_smiling_face::wink:
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

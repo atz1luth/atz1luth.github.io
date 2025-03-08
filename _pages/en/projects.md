@@ -3,7 +3,7 @@ page_id: projects
 layout: page
 title: \ d0Cs /
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [code, hacking, "cheet sheets", misc]
@@ -12,12 +12,10 @@ horizontal: false
 
 <br>
 
->
-
-###### Here I have all the cheetsheets that I find interesting. Many from kown repositories and people, and some mine. :ok_hand::slightly_smiling_face::wink:
+> Here I have all the cheetsheets that I find interesting.<br>Many from kown repositories and people, and some mine. :ok_hand::slightly_smiling_face::wink:
 
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
+{% if site.enable_project_categories and page.display_categories %%}
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>

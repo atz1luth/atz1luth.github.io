@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Enumeration
-description: A..
+description:
 category: "cheet sheets"
 display_categories: [enum]
 nav: true

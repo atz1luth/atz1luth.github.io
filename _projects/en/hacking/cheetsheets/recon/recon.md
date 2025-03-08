@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recon
-description: A..
+description:
 category: "cheet sheets"
 display_categories: [recon]
 nav: true

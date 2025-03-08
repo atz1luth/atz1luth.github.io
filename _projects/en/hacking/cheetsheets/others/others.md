@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Others
-description: A..
+description:
 category: "cheet sheets"
 display_categories: [others]
 nav: true
@@ -11,7 +11,7 @@ horizontal: true
 
 <br>
 {:center: style="text-align: center"}
-### `Others kind Cheet sheets`
+### `Others kind Cheet Sheets`
 {:center}
 <br>
 
