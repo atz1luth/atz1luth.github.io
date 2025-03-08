@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-d0cs",
           title: "\ d0Cs /",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
@@ -613,7 +613,7 @@ ninja.data = [{
               window.location.href = "/projects/python-yaml-deserialization/";
             },},{id: "projects-enumeration",
           title: 'Enumeration',
-          description: "A..",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/enum/";
             },},{id: "projects-files",
@@ -633,7 +633,7 @@ ninja.data = [{
               window.location.href = "/projects/ssl-tls/";
             },},{id: "projects-expolitation",
           title: 'Expolitation',
-          description: "A..",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/expolitation/";
             },},{id: "projects-file-transfer",
@@ -683,7 +683,7 @@ ninja.data = [{
               window.location.href = "/projects/internal-pentest/";
             },},{id: "projects-others",
           title: 'Others',
-          description: "A..",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/others/";
             },},{id: "projects-password-cracking",
@@ -743,7 +743,7 @@ ninja.data = [{
               window.location.href = "/projects/public-info-gathering/";
             },},{id: "projects-recon",
           title: 'Recon',
-          description: "A..",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/recon/";
             },},{id: "projects-subdomain-enum",
