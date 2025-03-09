@@ -94,9 +94,7 @@ _¡Gracias por pasarte por aquí! Espero que encuentres algo que despierte tu cu
 {:center}
 
 {:center: style="text-align: center"}
-
 ### **`¡Siéntete libre de explorar!`**
-
 {:center}
 
 ---
