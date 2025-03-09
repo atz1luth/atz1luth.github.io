@@ -134,17 +134,17 @@
     {
       "institution": "IES Teis",
       "location": "Vigo, Pontevedra",
-      "area": "IT",
-      "studyType": "Higher Education (HNC) in Systems Administration",
-      "startDate": "",
-      "endDate": "",
+      "area": "Informática y Comunicaciones",
+      "studyType": "Técnico Superior en Administración de Sistemas Informáticos en Red",
+      "startDate": "2020",
+      "endDate": "2025",
       "courses": [""]
     },
     {
       "institution": "IES",
       "location": "Pontevedra, Galicia",
-      "area": "",
-      "studyType": "Vocational Education and Training (VET)",
+      "area": "Electricidad y Electrónica",
+      "studyType": "Título Profesional Básico en Electricidad y Electrónica",
       "startDate": "",
       "endDate": "",
       "courses": [""]
