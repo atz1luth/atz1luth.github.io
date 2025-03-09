@@ -52,7 +52,7 @@
       "startDate": "Jul 2020",
       "endDate": "Sep 2020",
       "summary": "",
-      "highlights": ["Customer service", ""]
+      "highlights": ["Customer service"]
     },
     {
       "name": "JET SERVICE IBIZA",
@@ -60,7 +60,7 @@
       "startDate": "Jul 2019",
       "endDate": "Sep 2019",
       "summary": "",
-      "highlights": ["Customer service", ""]
+      "highlights": ["Customer service"]
     },
     {
       "name": "Smart Charter Ibiza",
@@ -68,7 +68,7 @@
       "startDate": "Jul 2018",
       "endDate": "Sep 2018",
       "summary": "",
-      "highlights": ["Customer service", ""]
+      "highlights": ["Customer service"]
     },
     {
       "name": "Smart Charter Ibiza",
@@ -76,7 +76,7 @@
       "startDate": "Jul 2017",
       "endDate": "Sep 2017",
       "summary": "",
-      "highlights": ["Customer service", ""]
+      "highlights": ["Customer service"]
     },
     {
       "name": "Rumpus Room Rooftop Bar at Mondrian London",
@@ -84,7 +84,7 @@
       "startDate": "Jul 2014",
       "endDate": "Mar 2016",
       "summary": "",
-      "highlights": ["", ""]
+      "highlights": [""]
     },
     {
       "name": "Zizzi Restaurants",
@@ -92,7 +92,7 @@
       "startDate": "Oct 2013",
       "endDate": "Sep 2014",
       "summary": "",
-      "highlights": ["", ""]
+      "highlights": [""]
     },
     {
       "name": "NATSUKI SERVICIOS CENTRALES, S.L ",
@@ -100,7 +100,7 @@
       "startDate": "June 2013",
       "endDate": "Oct 2013",
       "summary": "",
-      "highlights": ["", ""]
+      "highlights": [""]
     },
     {
       "name": "BALEARES DE GESTION DE SEGURIDAD Y SALVAMENTO",
@@ -108,13 +108,7 @@
       "startDate": "June 2012",
       "endDate": "Oct 2012",
       "summary": "",
-      "highlights": ["yepaaaaa", "leeee"]
-    },
-    {
-      "name": "SOCIEDAD PARA EL TRATAMIENTO DE AGUAS RESIDUALES",
-      "position": "Empleado limpieza",
-      "startDate": "Dec 2010",
-      "endDate": "Apr 2011"
+      "highlights": [""]
     },
     {
       "name": "ESPECIALISTAS EN TRABAJO TEMPORAL S.A. E.",
@@ -158,7 +152,7 @@
   ],
   "certificates": [
     {
-      "name": "lifecare",
+      "name": "Lifecare",
       "date": "2012-04-02",
       "issuer": "",
       "url": "#",
@@ -170,14 +164,6 @@
       "issuer": "#",
       "url": "#",
       "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "skills": [
-    {
-      "name": "code",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Bash", "Python"]
     }
   ],
   "languages": [
@@ -194,9 +180,9 @@
   ],
   "interests": [
     {
-      "name": "",
+      "name": "code",
       "icon": "fa-solid fa-tag",
-      "keywords": [""]
+      "keywords": ["Bash", "Python"]
     }
   ],
   "projects": []

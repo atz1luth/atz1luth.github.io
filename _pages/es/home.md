@@ -34,7 +34,7 @@ Este es mi avatar, **atziluth**. Sé que está escrito un poco críptico… Me g
 
 <br>
 
-##### `Este es mi rincón personal en internet. Recientemente terminé mi Certificado Técnico Superior en Administración de Sistemas, y durante el primer año del curso, descubrí mi pasión por la ciberseguridad.`
+##### `Este es mi rincón personal en internet. Recientemente finalicé mi título de Técnico Superior en Administración de Sistemas Informáticos en Red, y durante el primer año del curso, descubrí mi pasión por la ciberseguridad.`
 
 ##### `Desde entonces, me he sumergido de lleno en ello, estudiando, experimentando y enamorándome cada vez más del campo.`
 
@@ -42,25 +42,30 @@ Este es mi avatar, **atziluth**. Sé que está escrito un poco críptico… Me g
 
 ---
 
-Cuando terminé el primer año del curso de **Administrador de Sistemas**, _nunca antes había estado en el mundo IT. Y pensé hmm… interesante..._<br>
-Mis compañeros de clase me compartieron en el grupo de WhatsApp de clase un video de un pentester haciendo una máquina, algo que nunca había visto antes, ¡y para mí era como si hablara en chino!<br>
+Cuando terminé el primer año del curso de **Administrador de Sistemas**, nunca antes había estado en el mundo **IT**. Y pensé, hmm interesante...
+<br>
 
-Y pensé, **¡¡Dios mío!!** ¿¿No debería entender al menos un poco de lo que está haciendo?? :flushed: :flushed: Estoy estudiando esto… o eso creo…<br>
-Y ahí fue donde me enamoré, y nunca dejé de ver los streamings de **S4vitar** :relaxed:
-Aquí dejo algunas de sus redes: **[@s4vitar](https://github.com/s4vitar)** en _github_, **[@s4vitar](https://x.com/s4vitar?lang=en)** en _twitter_ y
-**[@S4viOnLive](https://www.youtube.com/channel/UCgzsRmCl4BU-QmSVC4jFOlg)** en _youtube_, su canal de directos en YouTube .<br>
+Los compañeros de clase compartieron en el grupo de WhatsApp de clase un video de un pentester haciendo una máquina, algo que nunca había visto antes. Y me quedé fascinado, ahí fue donde me enamoré, y nunca dejé de ver los streamings de **[@s4vitar](https://www.youtube.com/channel/UCgzsRmCl4BU-QmSVC4jFOlg)**. :relaxed:
+<br>
 
-Me enamoré de lo configurable que es **Linux** y empecé a jugar en **Hackthebox**.
-Por aquel entonces hice un video con mi flamante **Bspwm**... ¡Estaba tan feliz! :blush: :smile: jejeje
+Me enamoré de **Linux** y de los **[Entornos de Trabajo de Terminal](https://eines-informatiques.recursos.uoc.edu/introduccion-a-los-entornos-de-trabajo-gnu-linux/es/1-7-1-el-terminal)** y lo configurable que es, y empecé a jugar en **[Hackthebox](https://www.hackthebox.com/)**. :sweat_smile:
+<br>
+
+Por aquel entonces hice un video con mi recién configurado **Bspwm**!!
+¡Estaba tan feliz! :blush: :smile: jejeje
+
+- _Puedes echarle un ojo en este_ **[blog](/blog/2021/first_contact_with-bspwm/)**
+
+<br>
 
 ---
 
-Este espacio no es solo para mis estudios, sino también para compartir contenido que me inspira e informa.<br>
-Con el tiempo, también compartiré cosas que me inspiran, ya sea contenido que despierte algo en mí, noticias que inviten a la reflexión, videos interesantes o cosas relacionadas con el hacking.<br>
+_Este espacio no es solo para mis estudios, sino también para compartir contenido que me inspira e informa.<br>
+Con el tiempo, también compartiré cosas que me inspiran, ya sea contenido que despierte algo en mí, noticias que inviten a la reflexión, videos interesantes o cosas relacionadas con el hacking._
 
 ---
 
-_En este lugar puedes encontrar todo lo relacionado con mi camino:_
+_`En este lugar puedes encontrar todo lo relacionado con mi camino:`_
 
 - [Cheatsheets](/projects) y materiales de estudio (como Payloads of the Things y HackTricks) que me ayudan a aprender y crecer.
 

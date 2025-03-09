@@ -23,7 +23,7 @@ images:
 
 {:center: style="text-align: center"}
 
-# `Welcome!!` 😍
+# `Bienvenido!!` 😍
 
 {:center}
 
@@ -37,15 +37,17 @@ images:
 
 ---
 
+##### Hola!!!:wave: Yo soy **Roi** :slightly_smiling_face:<br><br>
+
+Un tío cualquiera del sur de Galicia, norte de España.
+
+Una región realmente hermosa con mucha naturaleza... y el mar :heart_eyes:<br>
+
+Tenemos unas rias preciosas rodeadas con montañas, no muy grandes, que crean algunas de las vistas más bonitas :smiling_face_with_three_hearts:
+
 <br>
-
-##### Hola!!! yo soy **Roi** :slightly_smiling_face:<br>
-
-Un tipo cualquiera del sur de Galicia, norte de España.<br> Una región realmente hermosa con mucha naturaleza... y el mar :heart_eyes:<br> Tenemos un gran estuario alrededor con montañas no tan grandes que crean algunas de las vistas más bonitas :smiling_face_with_three_hearts:
 
 ---
-
-<br>
 
 ##### `El Litoral Gallego, situado en el extremo noroccidental de España, en la costa atlántica, limita al este con Asturias y al sur con Portugal y es el litoral más extenso de todas las comunidades de España.`
 

@@ -43,16 +43,17 @@ This is my avatar, **atziluth**. I know it’s written a bit cryptic... I like t
 ---
 
 When I finnised the first year of the course **System Administrator**, _I never got into any IT field before_. And I thought _hmm... It's interessting_. <br>
-My classmates share a video in the class whatsapp group about a pentester doing a machine, thing that never seen before, and for me it was talking in Chinnese!!!<br>
 
-And I thought, **OMG**!! Shouldn't I understand at least a little thing from what he's doing ¿?¿?¿? :flushed: :flushed: I am studing this.. or I think so... <br>
-And there I got in love, and never stop viewing streamings from **S4vitar** :relaxed:<br>
-I leave here some of his social: **[@s4vitar](https://github.com/s4vitar)** at github, **[@s4vitar](https://x.com/s4vitar?lang=en)** at twitter and
-**[@S4viOnLive](https://www.youtube.com/channel/UCgzsRmCl4BU-QmSVC4jFOlg)** at youtube _channel_ of his live streamings.<br>
+My classmates share a video in the class whatsapp group about a pentester doing a machine, and I got really fascinated!, :heart_eyes:
+And never stop viewing streamings from **[@s4vitar](https://www.youtube.com/channel/UCgzsRmCl4BU-QmSVC4jFOlg)** :relaxed:<br>
 
-I got in love with the so configurable **Linux** and start to play in **Hackthebox**.<br>
+I got in love with the so configurable **Linux** and start to play in **[Hackthebox](https://www.hackthebox.com/)**.<br>
+
 By that time I made a video with my brand new **Bspwm**... I was so happy! :blush: :smile: hehehe<br>
-If you wanna check it, you can find the video in this **[blog](/blog/2021/first_contact_with-bspwm/)**. :wink:
+
+- _If you wanna check it, you can find the video in this_ **[blog](/blog/2021/first_contact_with-bspwm/)**. :wink:
+
+<br>
 
 ---
 
@@ -60,7 +61,7 @@ This space is not just for my studies but also for sharing content that inspires
 
 ---
 
-_In this place you can find everything related to my journey:_
+_`In this place you can find everything related to my journey:`_
 
 - [Cheatsheets](/projects) and study materials (like Payloads of the Things and HackTricks) that help me learn and grow.
 
