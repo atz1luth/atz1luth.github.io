@@ -77,10 +77,10 @@ cv:
   volunteer: Volunteer
   work: Work
 footer:
-  copyright: copyright
+  copyright:
   last_updated: last_updated
 footer_text: >
-  Love is life. And if you miss love, you miss life.
+  Love is life. And if you miss love, you miss life
 latest_posts: latest posts
 months:
   long:
@@ -129,7 +129,7 @@ post:
 references: References
 related_posts:
   description: "Here are some more articles you might like to read next:"
-  title: Enjoy Reading This Article?
+  title: Want more like this?
 search:
   dark_theme:
     description: Change the theme of the site to Dark

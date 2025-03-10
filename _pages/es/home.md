@@ -58,12 +58,16 @@ Por aquel entonces hice un video con mi recién configurado **Bspwm**!!
 
 <br>
 
+{:center: style="text-align: center"}
+
 ---
 
 _Este espacio no es solo para mis estudios, sino también para compartir contenido que me inspira e informa.<br>
 Con el tiempo, también compartiré cosas que me inspiran, ya sea contenido que despierte algo en mí, noticias que inviten a la reflexión, videos interesantes o cosas relacionadas con el hacking._
 
 ---
+
+{:center:}
 
 _`En este lugar puedes encontrar todo lo relacionado con mi camino:`_
 

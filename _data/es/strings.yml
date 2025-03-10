@@ -1,11 +1,11 @@
-archive_category: un arquivo de postagens desta categoria
-archive_tag: un arquivo de postagens com este marcador
-archive_year: un arquivo de postagens deste ano
+archive_category: un archivo de postagens desta categoria
+archive_tag: un archivo de posts con este marcador
+archive_year: un archivo de posts de este año
 bibliography:
   abstract: Abs
   awarded: Premiado
   blog: Blog
-  book_prefix: Em
+  book_prefix: En
   code: Código
   last_author_prefix: e
   poster: Poster
@@ -16,12 +16,12 @@ bibliography:
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  fun: diversión
+  work: trabajo
 citation:
-  bibtex: "ou como una citapción em BibTeX:"
-  introduction: "Se voce achou isso útil, por favor cite como:"
-contact_note: The biggest adventure you can take is to live the life of your dream
+  bibtex: "Como una citación em BibTeX:"
+  introduction: "Si usted encuentra eso útil, por favor cite como:"
+contact_note: La mayor aventura que puedes tomar es vivir la vida de tus sueños
 cv:
   address: Dirección
   area: Área
@@ -29,57 +29,56 @@ cv:
   awards: Premios
   basics: Informaciones generales
   certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
+  city: Ciudad
+  countryCode: Código pais
   courses: Cursos
-  date: Data
+  date: Datos
   education: Educación
   email: Email
-  endDate: Data de término
-  fluency: Fluencia
-  highlights: Destaques
-  image: Imagem
+  endDate: Fecha de fin
+  fluency: Influencia
+  highlights: Destacados
+  image: Imagen
   institution: Instituición
-  interests: Interesses
-  issuer: Emissor
-  keywords: Palavras chave
+  interests: Intereses
+  issuer: Emisor
+  keywords: Palabras clave
   label: Título
   language: Idioma
   languages: Idiomas
   level: Nível
   location: Localización
   name: Nome
-  network: Rede
+  network: Red
   organization: Organización
-  phone: Telefone
-  position: Posipción
+  phone: Telefono
+  position: Posición
   postalCode: Código postal
   present: Presente
-  profiles: Perfis
-  projects: Projetos
+  profiles: Perfiles
+  projects: Projectos
   publications: Publicaciones
-  publisher: Editora
+  publisher: Editorial
   reference: Referencia
   references: Referencias
   region: Region
-  releaseDate: Data de lanzamento
+  releaseDate: Fecha de lanzamiento
   score: Pontuación
   skills: Habilidades
-  startDate: Data de início
-  studyType: Tipo de estudo
-  summary: Resumo
-  table_of_contents: Topicos
+  startDate: Fecha de início
+  studyType: Tipo de estudio
+  summary: Resumen
+  table_of_contents: Tópicos
   title: Título
   url: Url
   username: Usuario
-  volunteer: Voluntário
-  work: Traballo
+  volunteer: Voluntario
+  work: Trabjo
 footer:
-  copyright: Derechos
+  copyright:
   last_updated: "Última atualización:"
 footer_text: >
-  Love is life. And if you miss love, you miss life.
-
+  El Amor es Vida, y si pierdes el Amor, pierdes la Vida
 latest_posts: últimos posts
 months:
   long:
@@ -127,13 +126,13 @@ post:
   last_updated: última atualización em
 references: Referencias
 related_posts:
-  description: "Aqui estão alguns artigos relacionados que voce pode gostar de ler:"
-  title: Gostou de Ler este Artigo?
+  description: "Aqui tiene algunos articulos relacionados que usted puede leer:"
+  title:
 search:
   dark_theme:
-    description: Muda o tema do site para escuro
-    title: Muda o tema para escuro
-  dropdown: Outras opciones
+    description: Cambia el tema del sitio para escuro
+    title: Cambia el tema a escuro
+  dropdown: Otras opciones
   email: Enviar un email
   footer:
     close: para cerrar
@@ -142,14 +141,14 @@ search:
     select: para selecionar
   languages: Idiomas
   light_theme:
-    description: Muda o tema do site para claro
-    title: Muda o tema para claro
-  navigation: Menu de navegapción
-  news: Novidades
-  placeholder: Digite para iniciar a busca
-  posts: Postagens
-  projects: Projetos
-  socials: Redes sociais
+    description: Cambia el tema a claro del sitio para claro
+    title: Cambia el tema a claro
+  navigation: Menu de navegación
+  news: Noviedades
+  placeholder: Dirigete para iniciar la busqueda
+  posts: Posts
+  projects: Projectos
+  socials: Redes sociales
   system_theme:
     description: Muda o tema do site para o padrão do sistema
     title: Usa o tema padrão do sistema

@@ -1,29 +1,37 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      -[{{ site.first_name }}]
+      {{- site.data[site.active_lang].strings.footer.copyright -}}
+      |[{{ site.first_name }}
       {{ site.middle_name }}
-      {{ site.last_name }}-[Love is life. And if you miss love, you miss life]-[{{ site.time | date: '%Y' }}]-
+      {{ site.last_name }}]-[ {{ site.data[site.active_lang].strings.footer_text }}
       {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"></a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"></a>]-[{{ site.time | date: '%Y' }}]|
       {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {{- site.data[site.active_lang].strings.footer.last_updated }}
+        {{ 'now' | date: '%B %d, %Y' }}
       {% endif %}
     </div>
   </footer>
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
-    <div class="container">
-      {{ site.first_name }}
-      {{ site.time | date: '%Y' }}
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
+
+    <div class="container">+
+      {{- site.data[site.active_lang].strings.footer.copyright -}}
+      |[{{ site.first_name }}
       {{ site.middle_name }}
-      {{ site.last_name }}]-[Love is life. And if you miss love, you miss life
+      {{ site.last_name }}]-[ {{ site.data[site.active_lang].strings.footer_text }}
       {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"></a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}"></a>]-[
+      {{ site.time | date: '%Y' }}]|
       {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {{- site.data[site.active_lang].strings.footer.last_updated }}
+        {{ 'now' | date: '%B %d, %Y' }}
       {% endif %}
     </div>
   </footer>

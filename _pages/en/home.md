@@ -55,11 +55,15 @@ By that time I made a video with my brand new **Bspwm**... I was so happy! :blus
 
 <br>
 
+{:center: style="text-align: center"}
+
 ---
 
 This space is not just for my studies but also for sharing content that inspires and informs. <br> Over time, I’ll also share things that inspire me, whether it’s awakening content, thought-provoking news, interesting videos, or hacking-related stuff.<br>
 
 ---
+
+{:center:}
 
 _`In this place you can find everything related to my journey:`_
 
