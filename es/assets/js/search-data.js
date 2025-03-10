@@ -16,49 +16,49 @@ const ninja = document.querySelector('ninja-keys');
 ninja.data = [{
     id: "nav-c4s4",
     title: "\ c4s4 /",
-    section: "Menu de navegapción",
+    section: "Menu de navegación",
     handler: () => {
       window.location.href = "/es/";
     },
   },{id: "nav-d14r1o",
           title: "/ d14R1o \",
           description: "Un entusiasta de la ciberseguridad",
-          section: "Menu de navegapción",
+          section: "Menu de navegación",
           handler: () => {
             window.location.href = "/es/blog/";
           },
         },{id: "nav-d0cs",
           title: "\ d0Cs /",
           description: "",
-          section: "Menu de navegapción",
+          section: "Menu de navegación",
           handler: () => {
             window.location.href = "/es/projects/";
           },
         },{id: "dropdown-acerca-de",
               title: "acerca de",
               description: "",
-              section: "Outras opciones",
+              section: "Otras opciones",
               handler: () => {
                 window.location.href = "/es";
               },
             },{id: "dropdown-repositorios",
               title: "repositorios",
               description: "",
-              section: "Outras opciones",
+              section: "Otras opciones",
               handler: () => {
                 window.location.href = "/es";
               },
             },{id: "dropdown-cv",
               title: "Cv",
               description: "",
-              section: "Outras opciones",
+              section: "Otras opciones",
               handler: () => {
                 window.location.href = "/es";
               },
             },{id: "dropdown-noticias",
               title: "noticias",
               description: "",
-              section: "Outras opciones",
+              section: "Otras opciones",
               handler: () => {
                 window.location.href = "/es";
               },
@@ -67,7 +67,7 @@ ninja.data = [{
         title: "a post with image galleries",
       
       description: "this is what included image galleries could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/photo-gallery/";
@@ -78,7 +78,7 @@ ninja.data = [{
         title: "Write Up Machine Keeper, Hackthebox - Easy",
       
       description: "write up easy machine Keeper - hackthebox",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/writeUp-keeper/";
@@ -89,7 +89,7 @@ ninja.data = [{
         title: "a post with tabs",
       
       description: "this is what included tabs in a post could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/tabs/";
@@ -100,7 +100,7 @@ ninja.data = [{
         title: "how to play hackthebox.com",
       
       description: "write up machine broker",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/how-to-play-hackthebox/";
@@ -111,7 +111,7 @@ ninja.data = [{
         title: "a post with typograms",
       
       description: "this is what included typograms code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/typograms/";
@@ -122,7 +122,7 @@ ninja.data = [{
         title: "a post that can be cited",
       
       description: "this is what a post that can be cited looks like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/post-citation/";
@@ -133,7 +133,7 @@ ninja.data = [{
         title: "a post with pseudo code",
       
       description: "this is what included pseudo code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/pseudocode/";
@@ -144,7 +144,7 @@ ninja.data = [{
         title: "a post with code diff",
       
       description: "this is how you can display code diffs",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/code-diff/";
@@ -155,7 +155,7 @@ ninja.data = [{
         title: "a post with advanced image components",
       
       description: "this is what advanced image components could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/advanced-images/";
@@ -166,7 +166,7 @@ ninja.data = [{
         title: "a post with vega lite",
       
       description: "this is what included vega lite code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/vega-lite/";
@@ -177,7 +177,7 @@ ninja.data = [{
         title: "a post with geojson",
       
       description: "this is what included geojson code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/geojson-map/";
@@ -188,7 +188,7 @@ ninja.data = [{
         title: "a post with echarts",
       
       description: "this is what included echarts code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/echarts/";
@@ -199,7 +199,7 @@ ninja.data = [{
         title: "a post with chart.js",
       
       description: "this is what included chart.js code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2024/chartjs/";
@@ -210,7 +210,7 @@ ninja.data = [{
         title: "a post with TikZJax",
       
       description: "this is what included TikZ code could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/tikzjax/";
@@ -221,7 +221,7 @@ ninja.data = [{
         title: "a post with bibliography",
       
       description: "an example of a blog post with bibliography",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/post-bibliography/";
@@ -232,7 +232,7 @@ ninja.data = [{
         title: "a post with jupyter notebook",
       
       description: "an example of a blog post with jupyter notebook",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/jupyter-notebook/";
@@ -243,7 +243,7 @@ ninja.data = [{
         title: "a post with custom blockquotes",
       
       description: "an example of a blog post with custom blockquotes",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/custom-blockquotes/";
@@ -254,7 +254,7 @@ ninja.data = [{
         title: "a post with table of contents on a sidebar",
       
       description: "an example of a blog post with table of contents on a sidebar",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/sidebar-table-of-contents/";
@@ -265,7 +265,7 @@ ninja.data = [{
         title: "a post with audios",
       
       description: "this is what included audios could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/audios/";
@@ -276,7 +276,7 @@ ninja.data = [{
         title: "a post with videos",
       
       description: "this is what included videos could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/videos/";
@@ -287,7 +287,7 @@ ninja.data = [{
         title: "displaying beautiful tables with Bootstrap Tables",
       
       description: "an example of how to use Bootstrap Tables",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/tables/";
@@ -298,7 +298,7 @@ ninja.data = [{
         title: "a post with table of contents",
       
       description: "an example of a blog post with table of contents",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2023/table-of-contents/";
@@ -309,7 +309,7 @@ ninja.data = [{
         title: "a post with giscus comments",
       
       description: "an example of a blog post with giscus comments",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2022/giscus-comments/";
@@ -320,7 +320,7 @@ ninja.data = [{
         title: "htb-Xplorer-Plus",
       
       description: "A tool to interact with Hack The Box",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2022/htb-Xpolorer-Plus/";
@@ -331,7 +331,7 @@ ninja.data = [{
         title: "a post with redirect",
       
       description: "you can also redirect to assets like pdf",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/assets/pdf/en-us/example_pdf.pdf";
@@ -342,7 +342,7 @@ ninja.data = [{
         title: "bspwm",
       
       description: "first contact with bspwm",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2021/first_contact_with-bspwm/";
@@ -353,7 +353,7 @@ ninja.data = [{
         title: "a post with diagrams",
       
       description: "an example of a blog post with diagrams",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2021/diagrams/";
@@ -364,7 +364,7 @@ ninja.data = [{
         title: "a post with twitter",
       
       description: "an example of a blog post with twitter",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2020/twitter/";
@@ -375,7 +375,7 @@ ninja.data = [{
         title: "a distill-style blog post",
       
       description: "an example of a distill-style blog post and main elements",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2018/distill/";
@@ -386,7 +386,7 @@ ninja.data = [{
         title: "a post with disqus comments",
       
       description: "an example of a blog post with disqus comments",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2015/disqus-comments/";
@@ -397,7 +397,7 @@ ninja.data = [{
         title: "a post with math",
       
       description: "an example of a blog post with some math",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2015/math/";
@@ -408,7 +408,7 @@ ninja.data = [{
         title: "a post with code",
       
       description: "an example of a blog post with some code",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2015/code/";
@@ -419,7 +419,7 @@ ninja.data = [{
         title: "a post with images",
       
       description: "this is what included images could look like",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2015/images/";
@@ -430,7 +430,7 @@ ninja.data = [{
         title: "a post with formatting and links",
       
       description: "march &amp; april, looking forward to summer",
-      section: "Postagens",
+      section: "Posts",
       handler: () => {
         
           window.location.href = "/es/blog/2015/formatting-and-links/";
@@ -439,425 +439,425 @@ ninja.data = [{
     },{id: "news-science-of-the-heart",
           title: 'Science of the Heart',
           description: "Electromagnetic field of the heart",
-          section: "Novidades",handler: () => {
+          section: "Noviedades",handler: () => {
               window.location.href = "/es/news/Science_of_the_Heart/";
             },},{id: "projects-prototype-pollution",
           title: 'Prototype pollution',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/Prototype-Pollution/";
             },},{id: "projects-summary",
           title: 'Summary',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetsheets/sum/";
             },},{id: "projects-sql-injection-prevention",
           title: 'SQL Injection Prevention',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/SQL_Injection_Prevention_Cheat_Sheet/";
             },},{id: "projects-ms-access-sql-injection",
           title: 'MS Access SQL Injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/access-sql-injection/";
             },},{id: "projects-mssql-injection",
           title: 'MSSQL Injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/mssql-injection/";
             },},{id: "projects-mysql-file-priv-to-ssrf-rce",
           title: 'MySQL File priv to SSRF/RCE',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/mysql-ssrf/";
             },},{id: "projects-mysql-injection",
           title: 'MySQL injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/mysql/";
             },},{id: "projects-oracle-injection",
           title: 'Oracle injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/oracle-injection/";
             },},{id: "projects-postgresql-large-objects",
           title: 'PostgreSQL Large Objects',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/big-binary-files-upload-postgresql/";
             },},{id: "projects-dblink-lo-import-data-exfiltration",
           title: 'dblink/lo_import data exfiltration',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/dblink-lo_import-data-exfiltration/";
             },},{id: "projects-network-privesc-port-scanner-and-ntlm-chanllenge-response-disclosure",
           title: 'Network - Privesc, Port Scanner and NTLM chanllenge response disclosure',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/network-privesc-port-scanner-and-ntlm-chanllenge-response-disclosure/";
             },},{id: "projects-pl-pgsql-password-bruteforce",
           title: 'PL/pgSQL Password Bruteforce',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/pl-pgsql-password-bruteforce/";
             },},{id: "projects-postgresql-injection",
           title: 'PostgreSQL injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/postgresql-injection/";
             },},{id: "projects-rce-with-postgresql-extensions",
           title: 'RCE with PostgreSQL Extensions',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/rce-with-postgresql-extensions/";
             },},{id: "projects-postgresql-languages",
           title: 'PostgreSQL Languages',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/rce-with-postgresql-languages/";
             },},{id: "projects-sql-injection",
           title: 'SQL-Injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/sql-cheetsheet/";
             },},{id: "projects-sql-injection",
           title: 'SQL Injection',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/sql-injection/";
             },},{id: "projects-second-order-sqlis",
           title: 'Second Order SQLis.',
           description: "SQLMap",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/second-order-injection-sqlmap/";
             },},{id: "projects-sqlmap-cheatsheet",
           title: 'SQLMap - Cheatsheet',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/sqlmap/";
             },},{id: "projects-cheetsheets",
           title: 'Cheetsheets',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/cheetsheets/";
             },},{id: "projects-basic-net-deserialization-objectdataprovider-gadget-expandedwrapper-and-json-net",
           title: 'Basic .Net deserialization (ObjectDataProvider gadget, ExpandedWrapper, and Json.Net)',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/basic-.net-deserialization-objectdataprovider-gadgets-expandedwrapper-and-json.net/";
             },},{id: "projects-basic-java-deserialization",
           title: 'Basic java deserialization',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/basic-java-deserialization-objectinputstream-readobject/";
             },},{id: "projects-deserialization",
           title: 'Deserialization',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/dese/";
             },},{id: "projects-deserialization",
           title: 'Deserialization',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/deserialization/";
             },},{id: "projects-exploiting-viewstate-without-knowing-the-secrets",
           title: 'Exploiting __VIEWSTATE without knowing the secrets',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/exploiting__viewstate-parameter/";
             },},{id: "projects-java-dns-deserialization-gadgetprobe-and-java-deserialization-scanner",
           title: 'Java DNS Deserialization, GadgetProbe and Java Deserialization Scanner',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/java-dns-deserialization-and-gadgetprobe/";
             },},{id: "projects-java-transformers-to-rutime-exec-payload",
           title: 'Java Transformers To Rutime Exec Payload',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/java-transformers-to-rutime-exec-payload/";
             },},{id: "projects-jndi-java-naming-and-directory-interface-amp-log4shell",
           title: 'JNDI - Java Naming and Directory Interface &amp;amp; Log4Shell',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/jndi-java-naming-and-directory-interface-and-log4shell/";
             },},{id: "projects-nodejs-proto-amp-prototype-pollution",
           title: 'NodeJS - __proto__ &amp;amp; prototype Pollution',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/NodeJS-prototype-Pollution/";
             },},{id: "projects-client-side-prototype-pollution",
           title: 'Client Side Prototype Pollution',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/client-side-prototype-pollution/";
             },},{id: "projects-express-prototype-pollution-gadgets",
           title: 'Express Prototype Pollution Gadgets',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/express-prototype-pollution-gadgets/";
             },},{id: "projects-prototype-pollution-to-rce",
           title: 'Prototype Pollution to RCE',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/prototype-pollution-to-rce/";
             },},{id: "projects-php-deserialization-autoload-classes",
           title: 'PHP - Deserialization + Autoload Classes',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/php-deserialization-+-autoload-classes/";
             },},{id: "projects-python-yaml-deserialization",
           title: 'Python Yaml Deserialization',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/python-yaml-deserialization/";
             },},{id: "projects-enumeration",
           title: 'Enumeration',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/enum/";
             },},{id: "projects-files",
           title: 'files',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/files/";
             },},{id: "projects-ports",
           title: 'Ports',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/ports/";
             },},{id: "projects-ssl-tls",
           title: 'SSL/TLS',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/ssl-tls/";
             },},{id: "projects-expolitation",
           title: 'Expolitation',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/expolitation/";
             },},{id: "projects-file-transfer",
           title: 'File transfer',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/file-transfer/";
             },},{id: "projects-payloads",
           title: 'Payloads',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/payloads/";
             },},{id: "projects-reverse-shell",
           title: 'Reverse Shell',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/reverse-shells/";
             },},{id: "projects-bug-bounty",
           title: 'Bug Bounty',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/bugbounty/";
             },},{id: "projects-burp-sutite",
           title: 'Burp-Sutite',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/burp/";
             },},{id: "projects-code-review",
           title: 'Code review',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/code-review/";
             },},{id: "projects-random",
           title: 'Random',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/dictionaires/";
             },},{id: "projects-exploiting",
           title: 'Exploiting',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/hacking/cheetseets/others/Exploiting/";
             },},{id: "projects-internal-pentest",
           title: 'Internal Pentest',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/internal-pentest/";
             },},{id: "projects-others",
           title: 'Others',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/others/";
             },},{id: "projects-password-cracking",
           title: 'Password cracking',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/password-cracking/";
             },},{id: "projects-recon-suites-review",
           title: 'Recon suites review',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/#/";
             },},{id: "projects-subdomain-tools-review",
           title: 'Subdomain tools review',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/Subdomain-tools-review/";
             },},{id: "projects-tools-everywhere",
           title: 'tools everywhere',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/tools-everywhere/";
             },},{id: "projects-pentesting-web-checklist",
           title: 'Pentesting Web checklist',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/";
             },},{id: "projects-web-fuzzers-review",
           title: 'Web fuzzers review',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetseets/others/web-fuzzers-comparision/";
             },},{id: "projects-root-domains",
           title: 'Root domains',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/domain-enum/";
             },},{id: "projects-host-scanning",
           title: 'Host Scanning',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/host-scanning/";
             },},{id: "projects-network-scanning",
           title: 'Network Scanning',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/network-scanning/";
             },},{id: "projects-packet-scanning",
           title: 'Packet Scanning',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/packet-scanning/";
             },},{id: "projects-public-info-gathering",
           title: 'Public info gathering',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/public-info-gathering/";
             },},{id: "projects-recon",
           title: 'Recon',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/recon/";
             },},{id: "projects-subdomain-enum",
           title: 'Subdomain Enum',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/subdomain-enum/";
             },},{id: "projects-webs-recon",
           title: 'Webs recon',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/webs-recon/";
             },},{id: "projects-oscp-cheatsheet",
           title: 'OSCP Cheatsheet',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/hacking/cheetsheets/OSCP/";
             },},{id: "projects-active-directory",
           title: 'Active Directory',
           description: "Active Directory Exploitation Cheat Sheet",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/AD/";
             },},{id: "projects-apache",
           title: 'Apache',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/apache/";
             },},{id: "projects-bash-scripting",
           title: 'Bash scripting',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/bash/";
             },},{id: "projects-bluebird",
           title: 'Bluebird',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/bluebird/";
             },},{id: "projects-emoji",
           title: 'emoji',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/emogi/";
             },},{id: "projects-full-ttys",
           title: 'Full TTYs',
           description: "Estabilizor de shells",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/full-ttys/";
             },},{id: "projects-git",
           title: 'Git',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/git/";
             },},{id: "projects-keyboard-unicode-symbols",
           title: 'Keyboard Unicode Symbols',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/keyboard-symbols/";
             },},{id: "projects-python",
           title: 'Python',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/python/";
             },},{id: "projects-python-2-vs-python-3",
           title: 'Python 2 vs Python 3',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/docs/misc/python2-3/";
             },},{id: "projects-shell",
           title: 'shell',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/shell/";
             },},{id: "projects-vim",
           title: 'Vim',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/vim/";
             },},{id: "projects-vim-scripting",
           title: 'Vim scripting',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projectos",handler: () => {
               window.location.href = "/es/projects/vimscript/";
             },},{
         id: 'social-github',
         title: 'GitHub',
-        section: 'Redes sociais',
+        section: 'Redes sociales',
         handler: () => {
           window.open("https://github.com/47z1Lu7h", "_blank");
         },
       },{
         id: 'social-instagram',
         title: 'Instagram',
-        section: 'Redes sociais',
+        section: 'Redes sociales',
         handler: () => {
           window.open("https://instagram.com/47z1lu7h", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
-        section: 'Redes sociais',
+        section: 'Redes sociales',
         handler: () => {
           window.open("https://app.hackthebox.com/profile/642903", "_blank");
         },
       },{
         id: 'social-facebook',
         title: 'Facebook',
-        section: 'Redes sociais',
+        section: 'Redes sociales',
         handler: () => {
           window.open("https://facebook.com/47z1lu7h", "_blank");
         },
       },{
         id: 'social-x',
         title: 'X',
-        section: 'Redes sociais',
+        section: 'Redes sociales',
         handler: () => {
           window.open("https://twitter.com/4tz1luth", "_blank");
         },
@@ -870,8 +870,8 @@ ninja.data = [{
           },
         },{
       id: 'light-theme',
-      title: 'Muda o tema para claro',
-      description: 'Muda o tema do site para claro',
+      title: 'Cambia el tema a claro',
+      description: 'Cambia el tema a claro del sitio para claro',
       section: 'Tema',
       handler: () => {
         setThemeSetting("light");
@@ -879,8 +879,8 @@ ninja.data = [{
     },
     {
       id: 'dark-theme',
-      title: 'Muda o tema para escuro',
-      description: 'Muda o tema do site para escuro',
+      title: 'Cambia el tema a escuro',
+      description: 'Cambia el tema del sitio para escuro',
       section: 'Tema',
       handler: () => {
         setThemeSetting("dark");
